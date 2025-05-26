@@ -1,25 +1,25 @@
 class AqueductsCli < Formula
   desc "CLI application to run pipelines defined for the aqueducts framework"
   homepage "https://github.com/vigimite/aqueducts"
-  version "0.10.0"
+  version "0.10.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.0/aqueducts-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "35f45b9dff74cd057b598b7ac384c4976ada2345e2ec63218f0c595c3eb25602"
+      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.1/aqueducts-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "282e08bd32c54efa1fefc1277c1a769768a6145ec7f33b3c95db397fd8ad3893"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.0/aqueducts-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "bb3055aad8cde6fb52f866f0e9feb0eb5aee2b36d9fb3d40753245fd151e2a23"
+      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.1/aqueducts-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "6262e55bc616875b30b557036c370bbe767bf4e9dc372d35828ac6e754518592"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.0/aqueducts-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "35134635748cb04fc85f5992633b9aace8cda7f6925c19ba75f4602a709db7f5"
+      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.1/aqueducts-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "c18e58e7a2505df4be3f6b7cd6f15280d5d1e4944f261e9148d66822525c912d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.0/aqueducts-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "eeae682241cf12186935312e206bb29fda5118e01f85d6524ec0a7ea4e7cae6d"
+      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.1/aqueducts-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "3b62b3bff8686869e177b81dd6dfe5de43413f3ca4761ef8e4cd68f91361b387"
     end
   end
   license "Apache-2.0"
