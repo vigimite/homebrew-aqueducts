@@ -1,25 +1,25 @@
 class AqueductsExecutor < Formula
   desc "Remote executor for the Aqueducts data pipeline framework"
   homepage "https://github.com/vigimite/aqueducts"
-  version "0.10.0"
+  version "0.10.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.0/aqueducts-executor-aarch64-apple-darwin.tar.xz"
-      sha256 "7f78f737036454ebf160eb29164949a07657c57f71b0b48aaf51467599e37247"
+      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.1/aqueducts-executor-aarch64-apple-darwin.tar.xz"
+      sha256 "39b62c27185834c45b7e270180c1198dd50cc166d1caf4a63c7a608476107a93"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.0/aqueducts-executor-x86_64-apple-darwin.tar.xz"
-      sha256 "4e6ca277b9c6c1e27a00283f230f91363f84be6e6e34b1c627dedbfad1453a8a"
+      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.1/aqueducts-executor-x86_64-apple-darwin.tar.xz"
+      sha256 "7ed9639eb0f748635e7145055b5b06e9dd0c785281f7f31990e846c9f8f2af15"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.0/aqueducts-executor-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "3ea2760ca2e1903b360119c9afee4f23b75e4ac7de7c0a13827f3c928d652952"
+      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.1/aqueducts-executor-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6002326d3627a84186b76ae28eefe8762fe025c7922943133bae6a064e72142a"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.0/aqueducts-executor-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "79fcdbca03c4605b081338932526baa5cf02f7406af842bc1bb1125cdcd6c759"
+      url "https://github.com/vigimite/aqueducts/releases/download/v0.10.1/aqueducts-executor-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "8f35e2323408dca7fcdc4340d009ac2a716469e7abcd940676dc1c48145832f4"
     end
   end
   license "Apache-2.0"
